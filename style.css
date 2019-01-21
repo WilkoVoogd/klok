@@ -4,7 +4,7 @@ body{
 	background-color: #532D2D;
 }
 
-div.clock{
+#clock{
 	width: 700px;
 	height: 700px;
 	border-radius: 50%;
@@ -13,4 +13,14 @@ div.clock{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+#clock-centre{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	color: #000000;
+	position: relative;
+	top: 50%;
+	left:50%;
 }
